@@ -1,5 +1,10 @@
 {
-    "editor.formatOnSave": true,
-    "editor.formatOnPaste": true,
-    "editor.formatOnType": true
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "diffEditor.codeLens": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

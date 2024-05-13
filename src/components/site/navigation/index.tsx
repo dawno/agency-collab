@@ -10,7 +10,7 @@ interface indexProps {
 }
 const index: FC<indexProps> = ({ user }: indexProps) => {
   return (
-    <div className="p-4 flex items-center justify-between relative">
+    <div className="fixed top-0 right-0 left-0 z-10 p-4 flex items-center justify-between ">
       <aside className="flex items-center gap-2">
         <Image
           src={"./assets/plura-logo.svg"}
